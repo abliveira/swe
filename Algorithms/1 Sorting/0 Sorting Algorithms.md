@@ -11,25 +11,6 @@ Sorting algorithms are essential in computer science and programming, as they he
 - Radix Sort: Sorts numbers digit by digit.
 - Bucket Sort: Distributes elements into buckets and sorts them individually.
 
-## 1. Bubble Sort
-
-Bubble sort is a basic comparison-based algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
-
-- **Time Complexity**: Worst/Average \(O(n^2)\), Best \(O(n)\)
-- **Space Complexity**: \(O(1)\) (In-place)
-
-### Pros:
-- Simple to understand and implement.
-- In-place algorithm (requires no extra space).
-- Efficient for small datasets or nearly sorted arrays.
-
-### Cons:
-- Very inefficient for large datasets due to \(O(n^2)\) time complexity.
-- Performs poorly when the list is in reverse order.
-- Redundant comparisons and swaps make it slow compared to more advanced algorithms.
-
----
-
 ## 2. Selection Sort
 
 Selection sort divides the array into a sorted and an unsorted part. It repeatedly selects the smallest (or largest) element from the unsorted portion and places it at the beginning of the sorted section.
