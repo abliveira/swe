@@ -6,6 +6,9 @@
 *.out
 *.exe
 
+# Java files
+*.class
+
 # Python files
 __pycache__/
 *.pyc
