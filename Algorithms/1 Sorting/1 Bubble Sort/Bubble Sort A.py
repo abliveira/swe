@@ -33,20 +33,20 @@ The process continues until the array is fully sorted.
 """
 
 def bubble_sort(arr):
-    n = len(arr)  # Get number of elements in array
+    size = len(arr)  # Get number of elements in array
 
     print("Before Sorting:", arr)  # Print original array
 
     # Outer loop for each pass through the array
-    for i in range(n):
+    for pass_idx in range(size):
         # Inner loop for comparing adjacent elements
-        for j in range(n - 1):
+        for current_idx in range(size - 1):
             # Compare adjacent elements and swap if in the wrong order
-            if arr[j] > arr[j + 1]:
+            if arr[current_idx] > arr[current_idx + 1]:
                 # Space complexity O(1) for temp variable
-                temp = arr[j]  # Use a temporary variable for swapping
-                arr[j] = arr[j + 1]
-                arr[j + 1] = temp
+                temp = arr[current_idx]  # Use a temporary variable for swapping
+                arr[current_idx] = arr[current_idx + 1]
+                arr[current_idx + 1] = temp
 
     print("After Sorting:", arr)  # Print sorted array
 
