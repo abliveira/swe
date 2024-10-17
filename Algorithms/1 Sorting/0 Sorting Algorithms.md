@@ -11,24 +11,6 @@ Sorting algorithms are essential in computer science and programming, as they he
 - Radix Sort: Sorts numbers digit by digit.
 - Bucket Sort: Distributes elements into buckets and sorts them individually.
 
-## 2. Selection Sort
-
-Selection sort divides the array into a sorted and an unsorted part. It repeatedly selects the smallest (or largest) element from the unsorted portion and places it at the beginning of the sorted section.
-
-- **Time Complexity**: \(O(n^2)\) in all cases (worst, average, and best).
-- **Space Complexity**: \(O(1)\) (In-place)
-
-### Pros:
-- Easy to implement.
-- In-place sorting.
-- Works well for small datasets.
-
-### Cons:
-- Inefficient for large datasets with \(O(n^2)\) time complexity.
-- More swaps than other quadratic algorithms (like insertion sort).
-- Unstable (does not maintain relative order of equal elements).
-
----
 
 ## 3. Insertion Sort
 
