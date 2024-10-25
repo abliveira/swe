@@ -11,26 +11,6 @@ Sorting algorithms are essential in computer science and programming, as they he
 - Radix Sort: Sorts numbers digit by digit.
 - Bucket Sort: Distributes elements into buckets and sorts them individually.
 
-
-## 3. Insertion Sort
-
-Insertion sort works by taking one element from the unsorted portion and inserting it into its correct position in the sorted portion.
-
-- **Time Complexity**: Worst/Average \(O(n^2)\), Best \(O(n)\)
-- **Space Complexity**: \(O(1)\) (In-place)
-
-### Pros:
-- Efficient for small datasets and nearly sorted arrays.
-- Simple to implement.
-- In-place sorting.
-- Stable (maintains the relative order of equal elements).
-
-### Cons:
-- Inefficient for large datasets with \(O(n^2)\) time complexity.
-- Slower than advanced algorithms like merge sort and quicksort.
-
----
-
 ## 4. Merge Sort
 
 Merge sort is a divide-and-conquer algorithm that divides the array into halves, recursively sorts them, and then merges them back together in sorted order.

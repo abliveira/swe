@@ -2,6 +2,7 @@
 .vscode/
 
 # C/C++ files
+output/
 *.o
 *.out
 *.exe
