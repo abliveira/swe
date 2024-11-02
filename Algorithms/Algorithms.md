@@ -5,6 +5,7 @@ Sorting Algorithms
 - Insert Sort
 - Merge Sort
 - Quick Sort
+Others
 - Tower of Hanoi
 - Linear Search
 - Binary Search

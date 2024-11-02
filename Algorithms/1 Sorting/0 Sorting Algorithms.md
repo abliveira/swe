@@ -11,26 +11,6 @@ Sorting algorithms are essential in computer science and programming, as they he
 - Radix Sort: Sorts numbers digit by digit.
 - Bucket Sort: Distributes elements into buckets and sorts them individually.
 
-## 4. Merge Sort
-
-Merge sort is a divide-and-conquer algorithm that divides the array into halves, recursively sorts them, and then merges them back together in sorted order.
-
-- **Time Complexity**: \(O(n \log n)\) in all cases (worst, average, and best).
-- **Space Complexity**: \(O(n)\) (requires auxiliary space for merging).
-
-### Pros:
-- Guarantees \(O(n \log n)\) time complexity.
-- Stable sorting algorithm.
-- Performs well on large datasets.
-- Suitable for sorting linked lists and external data (i.e., data that doesn’t fit in memory).
-
-### Cons:
-- Requires additional space, which can be a downside for large datasets.
-- Slower for small datasets compared to algorithms like quicksort.
-- More complex to implement compared to simpler algorithms like insertion or selection sort.
-
----
-
 ## 5. Quick Sort
 
 Quick sort is another divide-and-conquer algorithm that selects a pivot and partitions the array into two halves, recursively sorting the halves.
