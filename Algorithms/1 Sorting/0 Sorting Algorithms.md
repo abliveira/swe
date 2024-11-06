@@ -11,25 +11,6 @@ Sorting algorithms are essential in computer science and programming, as they he
 - Radix Sort: Sorts numbers digit by digit.
 - Bucket Sort: Distributes elements into buckets and sorts them individually.
 
-## 5. Quick Sort
-
-Quick sort is another divide-and-conquer algorithm that selects a pivot and partitions the array into two halves, recursively sorting the halves.
-
-- **Time Complexity**: Worst \(O(n^2)\), Average \(O(n \log n)\), Best \(O(n \log n)\)
-- **Space Complexity**: \(O(\log n)\) (for recursive calls).
-
-### Pros:
-- Very efficient with average \(O(n \log n)\) time complexity.
-- In-place sorting (no extra memory required).
-- Usually faster than merge sort for large datasets due to lower constant factors.
-- Works well with most real-world data.
-
-### Cons:
-- Worst-case time complexity \(O(n^2)\) if the pivot is poorly chosen (can be mitigated with optimizations like randomized pivots or choosing the median).
-- Unstable (does not maintain the relative order of equal elements).
-
----
-
 ## 6. Heap Sort
 
 Heap sort uses a binary heap data structure to sort the array. It first builds a max-heap and then repeatedly extracts the maximum element to place it in the correct position.
