@@ -10,21 +10,21 @@ using namespace std;
     The algorithm is efficient for smaller lists, but very inefficient for larger lists. Also, it does not require any additional storage space, as it operates in-place.
 
     Time Complexity:
-    - Worst/Average/Best: O(n^2)
+        - Worst/Average/Best: O(n^2)
     
     Space Complexity:
-    - O(1) (In-place)
+        - O(1) (In-place)
     
     Pros:
-    - Simple and easy to understand.
-    - In-place algorithm (requires no extra space).
-    - Useful when memory writes are costly, as it does the minimum number of swaps.
-    - Works well for small datasets.
+        - Simple and easy to understand.
+        - In-place algorithm (requires no extra space).
+        - Useful when memory writes are costly, as it does the minimum number of swaps.
+        - Works well for small datasets.
 
     Cons:
-    - Inefficient for large datasets due to O(n^2) time complexity.
-    - More swaps than other quadratic algorithms (like insertion sort).
-    - Unstable (does not maintain relative order of equal elements).
+        - Inefficient for large datasets due to O(n^2) time complexity.
+        - More swaps than other quadratic algorithms (like insertion sort).
+        - Unstable (does not maintain relative order of equal elements).
 
 */
 

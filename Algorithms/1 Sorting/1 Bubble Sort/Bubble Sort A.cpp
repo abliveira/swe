@@ -9,21 +9,21 @@ using namespace std;
     The algorithm is called Bubble Sort because it repeatedly steps through the list, "bubbling" larger elements to the top (end of the list) with each pass, similar to bubbles rising to the surface of water.
 
     Time Complexity
-    - Worst (where all elements need to be swapped) / Average: O(n^2)
-    - Best (no elements to be swapped): O(n)
+        - Worst (where all elements need to be swapped) / Average: O(n^2)
+        - Best (no elements to be swapped): O(n)
     
     Space Complexity
-    - O(1) (In-place)
+        - O(1) (In-place)
 
     Pros:
-    - Simple to understand and implement.
-    - In-place algorithm (requires no extra space).
-    - Efficient for small datasets or nearly sorted arrays.
+        - Simple to understand and implement.
+        - In-place algorithm (requires no extra space).
+        - Efficient for small datasets or nearly sorted arrays.
 
     Cons:
-    - Very inefficient for large datasets due to O(n^2) time complexity.
-    - Performs poorly when the list is in reverse order.
-    - Redundant comparisons and swaps make it slow compared to more advanced algorithms.
+        - Very inefficient for large datasets due to O(n^2) time complexity.
+        - Performs poorly when the list is in reverse order.
+        - Redundant comparisons and swaps make it slow compared to more advanced algorithms.
 
 */
 

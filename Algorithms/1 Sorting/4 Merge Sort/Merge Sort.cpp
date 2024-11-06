@@ -6,20 +6,20 @@ using namespace std;
 
     By utilizing recursion, each merge step requires only linear comparisons between the smallest remaining elements in the pre-sorted subarrays, ensuring O(n log n) efficiency by reducing redundant comparisons and achieving high sorting speeds.
 
-    Time Complexity
-        O(n log n) in all cases (worst, average, and best)
+    Time Complexity:
+        - O(n log n) in all cases (worst, average, and best)
 
     Space Complexity:
-        O(n) (requires auxiliary space for merging)
+        - O(n) (requires auxiliary space for merging)
     
     Pros:
-    - Stable sorting algorithm
-    - Performs well on large datasets
-    - Suitable for sorting linked lists and external data
+        - Stable sorting algorithm
+        - Performs well on large datasets
+        - Suitable for sorting linked lists and external data
     
     Cons:
-    - Requires additional space (O(n)), which can be a downside for large datasets
-    - Slower for small datasets compared to algorithms like quicksort
+        - Requires additional space (O(n)), which can be a downside for large datasets
+        - Slower for small datasets compared to algorithms like quicksort
 
     Example: [31, 4, 88, 1, 4, 2, 42]
 
