@@ -18,7 +18,7 @@ using namespace std;
         - Suitable for sorting linked lists and external data
     
     Cons:
-        - Requires additional space (O(n)), which can be a downside for large datasets
+        - Requires additional space (O(n)), which can be a downside for large datasets, so it's a non-in-place algorithm
         - Slower for small datasets compared to algorithms like quicksort
 
     Example: [31, 4, 88, 1, 4, 2, 42]
