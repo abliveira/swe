@@ -2,62 +2,6 @@
 
 Searching algorithms are fundamental for finding an element within a data structure. Depending on the type of structure and the characteristics of the data, different algorithms may be more or less efficient. Searching algorithms can be broadly categorized based on their approach and data structures. Below is an overview of several searching algorithms:
 
-## Linear Search Algorithms
-
-Linear Search algorithms are the simplest and generally least efficient. They sequentially check every element in the list until a match is found or all elements have been checked.
-
-### 1. Linear Search (Sequential Search)
-
-Linear Search is the simplest search algorithm. It sequentially checks every element in the list until a match is found or all elements have been checked.
-
-- **Time Complexity**: Worst \(O(n)\), Best \(O(1)\)
-- **Space Complexity**: \(O(1)\) (In-place)
-
-#### Pros:
-- Simple to implement.
-- Works on unsorted lists or arrays.
-- In-place algorithm (requires no extra space).
-
-#### Cons:
-- Inefficient for large datasets with \(O(n)\) time complexity.
-- Doesn’t take advantage of the sorted structure of the data.
-
----
-
-## Logarithmic Search Algorithms
-
-Logarithmic search algorithms are typically much faster for large datasets and work by dividing the data in half (or more) at each step, reducing the number of comparisons significantly.
-
-### 2. Binary Search
-
-Binary Search is a divide-and-conquer algorithm that searches for an element in a sorted array by repeatedly dividing the search interval in half.
-
-- **Time Complexity**: \(O(\log n)\)
-- **Space Complexity**: \(O(1)\) (In-place)
-
-#### Pros:
-- Very efficient with \(O(\log n)\) time complexity.
-- Works only on sorted arrays or lists.
-- In-place algorithm.
-
-#### Cons:
-- Requires sorted data.
-- More complex to implement than linear search.
-
-### 3. Ternary Search
-
-Ternary Search is similar to Binary Search, but instead of dividing the list into two halves, it divides the list into three parts. It can be used for searching in a sorted array or when maximizing or minimizing a function.
-
-- **Time Complexity**: \(O(\log_3 n)\)
-- **Space Complexity**: \(O(1)\) (In-place)
-
-#### Pros:
-- Similar to binary search but divides the problem into three parts.
-- Works on sorted data.
-
-#### Cons:
-- Slower than binary search for large datasets due to more comparisons.
-- Requires sorted data.
 
 ### 4. Fibonacci Search
 

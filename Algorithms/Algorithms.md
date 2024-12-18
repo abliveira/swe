@@ -1,13 +1,14 @@
 ## Solo Learn Algorithms
 Sorting Algorithms
-- Bubble Sort
-- Selection Sort
-- Insert Sort
-- Merge Sort
-- Quick Sort
+- Bubble Sort - OK
+- Selection Sort - OK
+- Insert Sort - OK
+- Merge Sort - OK
+- Quick Sort - OK
+
 Others
 - Tower of Hanoi
-- Linear Search
+- Linear Search - OK
 - Binary Search
 - Depth-First Search
 - Binary Search Tree
@@ -16,7 +17,7 @@ Others
 ## Google SWE Algorithms
 - Sorting, searching and binary search
 - Divide-and-conquer
-- Dynamic programming and memorization
+- Dynamic programming and memorization - OK
 - Greedy algorithms
-- Recursion
+- Recursion - OK
 - Graph traversal, breadth-first and depth-first

@@ -36,8 +36,8 @@ Data structures are essential for organizing, storing, and managing data efficie
 # Learning List
 
 **Popular types of Data Structures:**
-- Array
-- Linked List
+- Array - OK
+- Linked List - OK
 - Stack
 - Queue
 - Binary Tree
@@ -55,8 +55,8 @@ Data structures are essential for organizing, storing, and managing data efficie
 - Maps
 
 **Google SWE Data Structures**
-- Arrays
-- Linked Lists
+- Arrays - OK
+- Linked Lists - OK
 - Stacks
 - Queues
 - Sets
