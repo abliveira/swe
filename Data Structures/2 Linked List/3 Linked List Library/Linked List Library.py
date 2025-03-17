@@ -1,9 +1,11 @@
 from collections import deque
 
-# Introduction:
-# This example demonstrates how to use Python's deque from the collections module
-# to simulate operations on a linked list. It covers insertion at both ends,
-# iteration, reversing, and removing elements.
+'''
+    Introduction:
+    This example demonstrates how to use Python's deque from the collections module
+    to simulate operations on a linked list. It covers insertion at both ends,
+    iteration, reversing, and removing elements.
+'''
 
 # Create a deque to act as a linked list
 linked_list = deque()
