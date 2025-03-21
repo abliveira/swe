@@ -38,8 +38,8 @@ Data structures are essential for organizing, storing, and managing data efficie
 **Popular types of Data Structures:**
 - Array - OK
 - Linked List - OK
-- Stack
-- Queue
+- Stack - OK
+- Queue - OK
 - Binary Tree
 - Binary Search Tree
 - Heap
@@ -57,8 +57,8 @@ Data structures are essential for organizing, storing, and managing data efficie
 **Google SWE Data Structures**
 - Arrays - OK
 - Linked Lists - OK
-- Stacks
-- Queues
+- Stacks - OK
+- Queues - OK
 - Sets
 - Maps
 - Binary Trees
