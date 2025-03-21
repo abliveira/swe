@@ -3,31 +3,20 @@ import java.util.Collections; // Auxiliar library
 import java.util.Iterator; // Auxiliar library
 
 /*
-    This program demonstrates the use of the Java Collections Framework `LinkedList` class, 
-    which implements a doubly linked list. The example showcases various linked list operations, including:
+    This program demonstrates the use of the Java Collections Framework LinkedList class, 
+    which implements a doubly linked list. 
 
-    - Adding elements at the front and back (`addFirst` and `addLast`)
-    - Accessing the first and last elements (`getFirst` and `getLast`)
-    - Removing elements from the front and back (`removeFirst` and `removeLast`)
-    - Inserting elements at specific positions
-    - Removing specific elements by value
-    - Reversing the list (using a helper method)
-    - Sorting the list (using `Collections.sort`)
+    It abstracts complex linked list management while offering flexible built-in operations.
 
-    This program highlights how `LinkedList` abstracts the complexity of linked list management 
-    and provides utility functions for efficient and flexible operations.
-*/
+    Basic Operations:
+    - Insertion: addFirst(), addLast(), add(index, value)
+    - Access: getFirst(), getLast()
+    - Deletion: removeFirst(), removeLast(), remove(value)
+    - Iteration: Using an Iterator for traversal
+    - Reversal: Using Collections.reverse()
+    - Sorting: Can be performed using Collections.sort()
 
-/*
-    This program demonstrates the use of Java's `LinkedList` class, showcasing operations
-    such as adding, removing, and accessing elements. Additionally, it demonstrates the use 
-    of iterators for traversal and the `Collections` utility class for reversing the list.
-
-    Operations included:
-    - Adding elements at the front and back.
-    - Removing elements by position and value.
-    - Iterating over the list using an iterator.
-    - Reversing the list using the Collections utility class.
+    This example showcases adding, removing, and accessing elements, as well as iterating over and reversing the list.
 */
 
 class LinkedListLib {
