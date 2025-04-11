@@ -44,7 +44,7 @@ Data structures are essential for organizing, storing, and managing data efficie
 - Binary Search Tree
 - Heap
 - Hashing
-- Graph
+- Graph - OK
 - Matrix
 - Gap Buffer
 - Hash Table
@@ -63,7 +63,7 @@ Data structures are essential for organizing, storing, and managing data efficie
 - Maps
 - Binary Trees
 - Heaps
-- Graphs
+- Graphs - OK
 
 # References
 
