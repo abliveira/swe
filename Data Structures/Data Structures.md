@@ -4,7 +4,7 @@ Data structures are essential for organizing, storing, and managing data efficie
 
 ### Explanations of Categories:
 - **Linear**: Data structures where elements are arranged sequentially.
-- **Tree-based**: Hierarchical data structures where elements are arranged in a tree structure.
+- **Tree-based**: Hierarchical data structures where elements are arranged in a tree structure. Many tree-based structures are inherently recursive, meaning each subtree is itself a smaller instance of the tree
 - **Associative**: Data structures that store key-value pairs, allowing efficient lookups based on keys.
 - **Network**: Used to model networks, relationships, or graphs.
 - **Array-based**: A fixed or dynamic structure for storing data in a matrix or grid format.
